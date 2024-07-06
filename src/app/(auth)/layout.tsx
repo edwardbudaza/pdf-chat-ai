@@ -17,12 +17,12 @@ const AuthLayout = ({
   return (
     <>
         <ClerkLoading>
-            <div className="h-screen flex items-center justify-center bg-gradient-to-r from-rose-100 to-teal-100">
+            <div className="h-screen flex items-center justify-center bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-slate-100 via-slate-100 to-violet-100">
                  <Spinner size="lg"/>
              </div>
         </ClerkLoading>
         <ClerkLoaded>
-            <div className='flex items-center justify-center h-screen bg-gradient-to-r from-rose-100 to-teal-100'>
+            <div className='flex items-center justify-center h-screen bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-slate-100 via-slate-100 to-violet-100'>
                     {children} 
             </div>
         </ClerkLoaded>
